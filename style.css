@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+main{
+  margin-top: 30px;
+  box-shadow: 0px 0px 4px 4px rgb(8, 117, 226);
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 20px;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(169, 209, 248);
+}
+
+.posicionamentoRaizes, .bisseccao, .falsaPosicao, .mostraEqLug{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  margin: 0px 10px;
+  flex-wrap: wrap;
+}
+
+.mostraEqLug{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.equations,.bissecValues,.falsePValues{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.btn{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  text-align: center;
+  background-color: rgb(27, 37, 121);
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  color: aliceblue;
+}
+
+.input-control{
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  border: 0px solid rgb(82, 65, 65);
+}
+
+input{
+  padding: 2px;
+  width: 150px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+input:focus{
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 255, 0.637);
+}
+
+h2{
+  border: 0px solid rgb(82, 65, 65);
+  /* margin-left: 30px; */
+  width: 85%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.negative{
+  color: red;
+}
+
+.positive{
+ color: green;
+}
